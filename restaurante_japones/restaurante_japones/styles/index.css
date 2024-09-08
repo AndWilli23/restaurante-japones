@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(232, 255, 218) !important;
+    padding-bottom: 3rem;
+    width: 100%;
+    color: rgb(37, 157, 242) !important
+}
+
+.title{
+    color: rgb(8, 180, 237) !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.cabecalho {
+    background-color: rgb(100, 198, 115);
+    padding: .1rem;
+}
+
+.titulo_cabecalho {
+    font-weight: 800;
+    text-transform: uppercase ;
+    text-shadow: 3px 3px 2px rgb(55, 0, 255);  
+}
+
+.titulo_cabecalho::first-letter{
+    color: rgb(192, 71, 15);
+}
+
+.container_about{
+    margin: 3.6rem 6rem;
+    align-items: center !important;
+}
+
+.about_us{
+    width: 80%;
+}
+
+.texto_about{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: .5rem;
+}
+
+
+.botao{ 
+    border-radius: 1.5rem !important;
+    font-family: "Poppins", sans-serif !important;
+    background-color: rgb(100, 198, 115) !important;
+}
+
+.link_about{
+    text-decoration:none !important;  
+}
+
+@media (max-width: 1200px)  {
+    .container_about{
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .botao {
+        width: 80%;
+    }
+
+    .about_us{
+        width: 100%;
+    }
+}
+
